@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Property prices</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h3>Key:</h3>
+    <table>
+      <tr><td><span style="width: 8px; height: 8px; display: block; background-color: fuchsia"></span></td><td>Not seen before.</td></tr>
+      <tr><td><span style="width: 8px; height: 8px; display: block; background-color: orange"></span></td><td>Last seen at the same price.</td></tr>
+      <tr><td><span style="width: 8px; height: 8px; display: block; background-color: green"></span></td><td>Last seen at a lower price.</td></tr>
+      <tr><td><span style="width: 8px; height: 8px; display: block; background-color: red"></span></td><td>Last seen at a higher price.</td></tr>
+    </table>
+    <br/>
+    <button>Clear all saved prices</button>
+  </body>
+</html>
+
+
